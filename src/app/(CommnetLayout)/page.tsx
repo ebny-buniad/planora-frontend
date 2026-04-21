@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { getAllEvents } from "@/services/events";
 import EventCard from "@/components/modules/eventCard/EventCard";
+import LatestEvents from "@/components/modules/home/LatestEvents";
 
 export default async function Home() {
   // 👉 1 event for Hero
@@ -54,6 +55,7 @@ export default async function Home() {
 
       <HowItWorks />
       <StatsSection />
+      <LatestEvents/>
       <Testimonials />
     </div>
   );

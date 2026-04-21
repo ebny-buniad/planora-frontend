@@ -5,18 +5,33 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Amit Das",
-    comment: "Amazing platform! I hosted my first event easily.",
+    name: "Nusrat Jahan",
+    comment: "I didn’t expect creating events to be this easy. Really impressed!",
     rating: 5,
   },
   {
-    name: "Sara Ahmed",
-    comment: "Joining events is super smooth and simple.",
+    name: "Tanvir Hasan",
+    comment: "The UI is clean and browsing events feels very smooth.",
     rating: 4,
   },
   {
-    name: "Rahim Uddin",
-    comment: "Loved the experience, especially the private events!",
+    name: "Mehedi Rahman",
+    comment: "The payment system and approval flow feel very professional.",
+    rating: 5,
+  },
+  {
+    name: "Farzana Akter",
+    comment: "Managing private events has become much easier.",
+    rating: 4,
+  },
+  {
+    name: "Sabbir Hossain",
+    comment: "Overall experience is awesome. Looking forward to more features!",
+    rating: 4,
+  },
+  {
+    name: "Jakir Hossain",
+    comment: "Overall experience is awesome. Looking forward to more features!",
     rating: 5,
   },
 ];

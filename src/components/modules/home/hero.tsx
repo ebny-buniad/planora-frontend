@@ -38,21 +38,20 @@ function formatEventDate(dateString?: string) {
 
 export default function HeroSection({ event }: HeroSectionProps) {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-b from-background to-muted/40">
+    <section className="relative overflow-hidden border bg-[linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('https://i.ibb.co.com/2fJd776/bunch-flowers-leaves-table.jpg')] bg-cover bg-center bg-no-repeat">
       <div className="container mx-auto px-4 py-16 md:py-24">
         <div className="grid items-center gap-10 lg:grid-cols-2">
-          <div className="space-y-6">
+          <div className="space-y-6 text-white">
             <Badge className="rounded-full px-4 py-1 text-sm">
               Discover • Create • Join Events
             </Badge>
 
             <div className="space-y-4">
               <h1 className="text-4xl font-bold leading-tight tracking-tight md:text-5xl lg:text-6xl">
-                Plan and join memorable events with{" "}
-                <span className="text-primary">Planora</span>
+                Plan and join memorable events with Planora
               </h1>
 
-              <p className="max-w-xl text-base text-muted-foreground md:text-lg">
+              <p className="max-w-xl md:text-lg">
                 Planora is a modern event platform where users can create,
                 manage, and participate in public or private events with smooth
                 registration, approvals, and payment support.
@@ -70,14 +69,14 @@ export default function HeroSection({ event }: HeroSectionProps) {
                 <Button
                   variant="outline"
                   size="lg"
-                  className="w-full sm:w-auto"
+                  className="w-full sm:w-auto text-black"
                 >
                   Create Event
                 </Button>
               </Link>
             </div>
 
-            <div className="flex flex-wrap items-center gap-6 pt-2 text-sm text-muted-foreground">
+            <div className="flex flex-wrap items-center gap-6 pt-2 text-sm">
               <div className="flex items-center gap-2">
                 <CalendarDays className="h-4 w-4" />
                 <span>Public & Private Events</span>
@@ -101,7 +100,7 @@ export default function HeroSection({ event }: HeroSectionProps) {
               <div className="space-y-4">
                 <div className="overflow-hidden rounded-2xl">
                   <img
-                    src="https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=1200&auto=format&fit=crop"
+                    src="https://workik.com/staticassets/images/event%20cover%20photo.webp"
                     alt="Featured event"
                     className="h-64 w-full object-cover"
                   />
