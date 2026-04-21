@@ -28,10 +28,6 @@ export default async function DashboardLayout({
   const userinfo = await getCurrentUserServer();
   const role = userinfo?.role;
 
-  // const role =
-  //   userinfo?.role === "ADMIN" || userinfo?.role === "USER"
-  //     ? userinfo.role
-  //     : undefined;
 
   return (
     <TooltipProvider>

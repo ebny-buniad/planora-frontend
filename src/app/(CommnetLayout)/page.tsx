@@ -1,24 +1,4 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-// import HeroSection from "@/components/modules/home/hero";
-// import HowItWorks from "@/components/modules/home/HowItWorks";
-// import StatsSection from "@/components/modules/home/StatsSection";
-// import Testimonials from "@/components/modules/home/Testimonials";
-// import { getAllEvents } from "@/services/events";
-
-// export default async function Home() {
-//   const result = await getAllEvents({ limit: 1 });
-//   const event = result?.data?.[0];
-
-//   return (
-//     <div>
-//       <HeroSection event={event} />
-//       <HowItWorks />
-//       <StatsSection />
-//       <Testimonials />
-//     </div>
-//   );
-// }
-
 import HeroSection from "@/components/modules/home/hero";
 import HowItWorks from "@/components/modules/home/HowItWorks";
 import StatsSection from "@/components/modules/home/StatsSection";

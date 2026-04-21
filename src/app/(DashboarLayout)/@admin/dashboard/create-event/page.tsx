@@ -6,10 +6,3 @@ export default function AdminCreateEventPage() {
   return <CreateEventForm />;
 }
 
-// import React from 'react'
-
-// export default function AdminCreateEventpage() {
-//   return (
-//     <div>AdminCreateEventpage</div>
-//   )
-// }
